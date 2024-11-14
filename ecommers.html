@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELBYME.COM</title>
+    <link rel="stylesheet" href="ecommers.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">MyShop</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="addtocart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <h1>Welcome to MyShop</h1>
+            <p>Your one-stop shop for all your needs.</p>
+            <a href="#products" class="shop-now">Shop Now</a>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="products">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="rajesh.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>$19.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="lavkesh.jpg" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p>$29.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="pavan.jpg" alt="Product 3">
+                    <h3>Product 3</h3>
+                    <p>$39.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <!-- Add more product items as needed -->
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing the best products and services to our customers. Our mission is to ensure top-notch quality and customer satisfaction.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form action="/submit-form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 MyShop. All Rights Reserved.</p>
+    </footer>
+    <script src="ecommers.js"></script>
+    
+</body>
+
+</html>
